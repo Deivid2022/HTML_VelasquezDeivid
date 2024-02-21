@@ -6,8 +6,9 @@
     padding:0px;
 }
 div#margenTitulo{
-    margin:auto;
+    margin:10px;
     margin-top: 50px;
+    margin-left: 510px;
     width:900px;
     height: 39px;
     background-color: E2FF9E;
