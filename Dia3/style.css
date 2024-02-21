@@ -1,12 +1,19 @@
 div#margentitulo{
-    background-color: #DDFFA6;
+    background-color: #8C00FF;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    font-size: 30px;
 }
 table.tabla{
     margin: auto;
-    background-color: #ECC1FF;
+    background-color: #FFD7FB;
     border:0px;
     border-spacing: 0px;
     border: 1px solid black;
+    margin-top: 50px;
     
 }   
 table.tabla tr{
@@ -20,22 +27,66 @@ table.tabla td{
     margin: 0px;
     padding: 0px;
     height: 100%;
+    font-size: 18px;
 }
 .hola{
     text-align: center;
     margin-top: 300px;
     padding: 30px;
-}
+    transition: transform 0.3s ease;
+    
+}   
+
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     width: 50px;
     height: 50px;
+    font-size: 40px;
 }
-a:hover{
-    border: solid #d8c6bd;
-    background-color: #ccbdb5;
-}
+
 body{
-    background-color: #C1F8FF;
+    background-color: #17b7f7;
+    font-family: "Times New Roman", Times, serif;
 }
+.boton{
+    margin-top: -120px;
+}
+div#margentitulo2{
+    background-color: #8C00FF;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 30px;
+}
+.M{
+    display: inline-block; 
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 30%;
+    max-width: 300px;
+    overflow: hidden; 
+}
+
+.M:hover {
+    transform: scale(1.05);
+}
+.M2{
+    display: inline-block; 
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 30%;
+    max-width: 300px; 
+    overflow: hidden;
+}
+
+.M2:hover {
+    transform: scale(1.05);
+}
+
