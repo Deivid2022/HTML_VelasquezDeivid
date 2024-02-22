@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de registro - Mi web</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="/Dia4/sticker_29.png">
+</head>
+<body>
+<h1>Formulario de registro</h1>
+<form action="bienvenida.html" method="GET">
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" maxlength="50" required>
+    </div>
+    <div>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tu apellido" maxlength="50" required>
+    </div>
+    <div>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre" required>
+        <label for="hombre" class="color">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer" required>
+        <label for="mujer" class="color">Mujer</label>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+    </div>
+    <div>
+        <input type="checkbox" id="info" name="info"  checked required>
+        <label for="info" class="color">Deseo recibir información sobre novedades y ofertas</label>
+    </div>
+    <div>
+        <input type="checkbox" id="condiciones" name="condiciones" required>
+        <label for="condiciones" class="color">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+    </div>
+    <div>
+        <label for="poblacion">Población:</label>
+        <select id="poblacion" name="poblacion">
+            <option value="xd"></option>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Giron</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+        </select>
+    </div>
+    <div>
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4"  cols="50" maxlength="50"></textarea>
+    </div>
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+</form>
+</body>
+</html>
