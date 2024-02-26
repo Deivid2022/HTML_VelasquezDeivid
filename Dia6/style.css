@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'OpenSans, regular';
+    src: url('./font/OpenSans-Regular.ttf') format(truetype);
+}
+
+.fondoBlanco{
+    position: relative;
+    background-color: white;
+    width: 1920px;
+    height: 1080px;
+    
+}
+.fondoNegro{
+    position: absolute;
+    background-color: black;
+    top: -8px;
+    left: 1758px;
+    width: 160px;
+    height: 1095px;
+}
+.metrolinea{
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    top: 43px;
+    left: 43px;
+}
+.compras{
+    position: absolute;
+    top: 40px;
+    right: 210px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+.lupa{
+    position: absolute;
+    top: 40px;
+    right: 370px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+.saldo{
+    position: absolute;
+    top: 4px;
+    right: 440px;
+    font-size: 36px;
+    font-family: 'OpenSans, regular';
+}
+.tarjeta{
+    position: absolute;
+    top: 4px;
+    right: 650px;
+    font-size: 36px;
+    font-family: 'OpenSans, regular';
+}
+.line{
+    position: absolute;
+    top: 100px;
+    right: 678px;
+    width: 180px;
+}
