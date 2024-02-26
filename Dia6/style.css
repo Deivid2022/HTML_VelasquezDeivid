@@ -74,7 +74,7 @@
     position:absolute;
     width: 1100px;
     height: auto;
-    top: 150px;
+    top: 170px;
     left: 200px;
 }
 .saltot{
@@ -84,4 +84,183 @@
     font-size: 50px;
     font-family: 'OpenSans, Semibold';
     text-align: left;
+}
+.cop{
+    position:absolute;
+    color: black;
+    top: 930px;
+    left: 60px;
+    font-size: 35px;
+    font-family: 'OpenSans, Semibold';
+}
+.fondoVerde{
+    position: absolute;
+    top: 870px;
+    right: 250px;
+    width: 220px;
+    height: auto;
+}
+.logo{
+    position:absolute;
+    width: 180px;
+    height: auto;
+    top: 910px;
+    right: 272px;
+}
+.comprar{
+    position: absolute;
+    top: 930px;
+    right: 284px;
+    font-size: 35px;
+    font-family: 'OpenSans, Semibold';
+}
+.flechaA{
+    position: absolute;
+    top: 30px;
+    right: 63px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+.cantidad{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num04{
+    position: absolute;
+    top: 400px;
+    right: 70px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num04:hover{
+    color: white;
+}
+.num05{
+    position: absolute;
+    top: 500px;
+    right: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num06{
+    position: absolute;
+    top: 600px;
+    right: 70px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num06:hover{
+    color: white;
+}
+.flechaB{
+    position: absolute;
+    top: 1000px;
+    right: 63px;
+    width: 40px;
+    height: auto;
+    rotate: 180deg;
+    cursor: pointer;
+}
+.line2{
+    position:absolute;
+    height: 2px;
+    width: 100px;
+    right: 465px;
+    top: 105px;
+}
+.cantidad2{
+    position: absolute;
+    top: 200px;
+    right: 52px;
+    color: white;
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num042{
+    position: absolute;
+    top: 400px;
+    right: 48px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num042:hover{
+    color: white;
+}
+.num052{
+    position: absolute;
+    top: 500px;
+    right: 48px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num062{
+    position: absolute;
+    top: 600px;
+    right: 48px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'OpenSans, regular';
+    cursor: pointer;
+}
+.num062:hover{
+    color: white;
+}
+.imagenM{
+    position: absolute;
+    top: 110px;
+    left: 480px;
+    width: 800px;
+    height: auto;
+}
+.pepito{
+    position: absolute;
+    color: black;
+    top: 510px;
+    left: 450px;
+    font-size: 50px;
+    font-family: 'OpenSans, Semibold';
+}
+.actual{
+    position: absolute;
+    color: #000000;
+    top: 600px;
+    left: 670px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'OpenSans, Semibold';
+}
+.escogido{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'OpenSans, Semibold';
+    top: 715px;
+    left: 750px;
+}
+#saldo{
+    position: absolute;
+    top: 780px;
+    left: 666px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'OpenSans, Semibold';
+    
 }
