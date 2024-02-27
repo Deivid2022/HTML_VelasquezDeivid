@@ -256,11 +256,10 @@
 #saldo{
     position: absolute;
     top: 780px;
-    left: 666px;
+    left: 642px;
     border-radius: 10px;
     padding: 10px 0px;
     text-align: center;
     font-size: 35px;
     font-family: 'OpenSans, Semibold';
-    
 }
