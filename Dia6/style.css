@@ -95,10 +95,12 @@
 }
 .fondoVerde{
     position: absolute;
-    top: 870px;
+    background-color: #D5FF43;
+    top: 860px;
     right: 250px;
     width: 220px;
-    height: auto;
+    height: 170px;
+    border-radius: 8px;
 }
 .logo{
     position:absolute;
@@ -113,6 +115,7 @@
     right: 284px;
     font-size: 35px;
     font-family: 'OpenSans, Semibold';
+    cursor: pointer;
 }
 .flechaA{
     position: absolute;
