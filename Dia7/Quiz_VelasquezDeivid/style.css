@@ -394,6 +394,93 @@ body{
     position: absolute;
     color: #ffefe8;
     font-size: 25px;
-    top: 5200px;
+    top: 5230px;
     left: 300px;
+}
+.our{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 5150px;
+    left: 600px;
+}
+.linea2{
+    position: absolute;
+    top: 5235px;
+    left: 600px;
+    width: 100px;
+    height: 2px;
+    background-color: #ff702a;
+}
+.menu2{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 25px;
+    top: 5230px;
+    left: 600px;
+}
+.Information{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 5150px;
+    left: 950px;
+}
+.linea3{
+    position: absolute;
+    top: 5235px;
+    left: 950px;
+    width: 100px;
+    height: 2px;
+    background-color: #ff702a;
+}
+.menu3{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 25px;
+    top: 5230px;
+    left: 950px;
+}
+.Contact1{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 5150px;
+    left: 1300px;
+}
+.linea4{
+    position: absolute;
+    top: 5235px;
+    left: 1300px;
+    width: 100px;
+    height: 2px;
+    background-color: #ff702a;
+}
+.circle{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 5250px;
+    left: 1300px;
+}
+.circle1{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 5250px;
+    left: 1350px;
+}
+.circle2{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 5250px;
+    left: 1400px;
+}
+.circle3{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 5250px;
+    left: 1450px;
 }
