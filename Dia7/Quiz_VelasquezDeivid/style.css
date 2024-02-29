@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.Foods{
+    position:absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: -20px;
+    left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.Home{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 60px;
+    left: 1100px;
+}
+.About{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 60px;
+    left: 1250px;
+}
+.Menu{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 60px;
+    left: 1400px;
+}
+.Service{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 60px;
+    left: 1550px;
+}
+.Contact{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 60px;
+    left: 1725px;
+}
+.full{
+    position:absolute;
+    color: #ff702a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125px;
+    top: 250px;
+    left: 240px;
+}
+.Most{
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    top: 530px;
+    left: 245px;
+}
+.home{
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    width: 700px;
+    height: auto;
+}
+.today{
+    position: absolute;
+    color: white;
+    background-color: #ff702a;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 750px;
+    left: 245px;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.about{
+    position: absolute;
+    top: 1350px;
+    left: 350px;
+}
+.us{
+    position: absolute;
+    color: #ff702a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    top: 1350px;
+    left: 1070px;
+}
+.we{
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    top: 1380px;
+    left: 1070px;
+}
+.it{
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    top: 1600px;
+    left: 1070px;
+}
+.learn{
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none   ;
+    font-size: 25px;
+    top: 1780px;
+    left: 1070px;
+    background-color: #ff702a;
+    padding: 10px 20px;
+}
+.FoMe{
+    position: absolute;
+    color: #ff702a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    top: 2200px;
+    left: 900px;
+}
+.fresh{
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    top: 2220px;
+    left: 630px;
+}
+.margen1{
+    position:absolute;
+    background-color: #ffefe8;
+    width: 360px;
+    height: 400px;
+    margin-top: 2450px;
+    margin-left: 400px;
+    border: 2px solid black;
+}
+.margen2{
+    position:absolute;
+    background-color: #ffefe8;
+    width: 360px;
+    height: 400px;
+    margin-top: 2450px;
+    margin-left: 800px;
+    border: 2px solid black;
+}
+.margen3{
+    position:absolute;
+    background-color: #ffefe8;
+    width: 360px;
+    height: 400px;
+    margin-top: 2450px;
+    margin-left: 1200px;
+    border: 2px solid black;
+}
+.food1{
+    position: absolute;
+    top: 2480px;
+    left: 440px;
+}
+.chicken{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    top: 2750px;
+    left: 510px;
+}
+.tasty{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    top: 2790px;
+    left: 545px;
+}
+.valor1{
+    position: absolute;
+    color: #ff702a;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    top: 2815px;
+    left: 560px;
+}
+.food2{
+    position: absolute;
+    top: 2470px;
+    left: 838px;
+}
+.special{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    top: 2750px;
+    left: 890px;
+}
+.tasty2{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    top: 2790px;
+    left: 940px;
+}
+.valor2{
+    position: absolute;
+    color: #ff702a;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    top: 2815px;
+    left: 960px;
+}
+.food3{
+    position: absolute;
+    top: 2480px;
+    left: 1250px;
+    width: 280px;
+    height: auto;
+}
+.fry{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    top: 2750px;
+    left: 1300px;
+}
+.tasty3{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    top: 2790px;
+    left: 1340px;
+}
+.valor3{
+    position: absolute;
+    color: #ff702a;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    top: 2815px;
+    left: 1365px;
+}
+.ser{
+    position: absolute;
+    color: #ff702a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    top: 3150px;
+    left: 900px;
+}
+.provide{
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    top: 3200px;
+    left: 550px;
+}
+.s1{
+    position: absolute;
+    top: 3420px;
+    left: 300px;
+    width: 400px;
+    height: auto;
+}
+.order{
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 3720px;
+    left: 420px;
+}
+.is{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 30px;
+    top: 3810px;
+    left: 260px;
+    text-align: center;
+}
+.s2{
+    position: absolute;
+    top: 3420px;
+    left: 820px;
+    width: 370px;
+    height: auto;
+}
+.Shipping{
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 3720px;
+    left: 900px;
+}
+.a{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 30px;
+    top: 3810px;
+    left: 790px;
+    text-align: center;
+}
+.s3{
+    position: absolute;
+    top: 3420px;
+    left: 1300px;
+    width: 350px;
+    height: auto;
+}
+.Dellvered{
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 3720px;
+    left: 1380px;
+}
+.long{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 30px;
+    top: 3810px;
+    left: 1280px;
+    text-align: center;
+}
+.margen4{
+    position:absolute;
+    background-color: #ffefe8;
+    width: 1600px;
+    height: 550px;
+    margin-top: 4400px;
+    margin-left: 150px;
+    border: 2px solid black;
+}
+.make{
+    position:absolute;
+    color: #1e1d2b;
+    top: 4500px;
+    left: 650px;
+    text-align: center;
+    font-size: 55px;
+}
+.ul{
+    position: absolute;
+    color: white;
+    text-decoration: none   ;
+    font-size: 25px;
+    top: 4800px;
+    left: 870px;
+    background-color: #ff702a;
+    padding: 10px 20px;
+}
+.link{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 5150px;
+    left: 300px;
+}
+.linea1{
+    position: absolute;
+    top: 5235px;
+    left: 300px;
+    width: 100px;
+    height: 2px;
+    background-color: #ff702a;
+}
+.menu1{
+    position: absolute;
+    color: #ffefe8;
+    font-size: 25px;
+    top: 5200px;
+    left: 300px;
+}
