@@ -1,18 +1,29 @@
 .miflex {
-    display: flex;
-    background-color: #581845;
+  display: flex;
+  flex-wrap: wrap; /* Añadido para que los elementos se envuelvan en dispositivos móviles */
+}
 
-  }
+.miflex div {
+  background-color: #DAF7A6;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  box-sizing: border-box; /* Añadido para que el padding no afecte el tamaño total */
+  justify-content: space-between;
+}
 
-.miflex  div {
-    background-color: #DAF7A6;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    font-size: 30px;
-    align-items: stretch;
-    flex-grow: 1;
+h1 {
+  text-align: center;
+}
+
+/* Ajuste para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .miflex div {
+      flex-basis: calc(50% - 20px); /* Ajustar el ancho de los elementos a la mitad del contenedor, descontando el margen */
   }
-  h1{
-    text-align: center;
-  } 
+}
+.avion{
+  width: 500px;
+  height: auto;
+}
