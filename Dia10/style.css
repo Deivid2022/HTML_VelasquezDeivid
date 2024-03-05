@@ -1,0 +1,32 @@
+.body{
+    width: 1420px;
+    height: 1080px;
+    background-color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+.item1 { grid-area: menu; }
+.item2 { grid-area: main; }
+.item3 { grid-area: cuadro4; width: 30vi; height: auto;}
+.item4 { grid-area: cuadro5;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu cuadro4'
+    'main cuadro4'
+    'cuadro5 cuadro5';
+    gap: 15px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.grid-container > div {
+  background-color:white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border-radius: 15px;
+}
