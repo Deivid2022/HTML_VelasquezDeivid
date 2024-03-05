@@ -12,6 +12,7 @@
     font-size: 30px;
     align-items: stretch;
     flex-grow: 1;
+    text-decoration: none;
   }
   h1{
     text-align: center;
