@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.paisaje{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 0px;
+    left: 0px;
+}
+.casa{
+    position: absolute;
+    top: 12.4em;
+    left: 63.7em;
+    width: 900px;
+    height: auto;
+}
+.sol{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 1500px;
+}
+@keyframes sol {
+    from{
+        opacity: ;
+    }
+}
