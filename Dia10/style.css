@@ -1,32 +1,90 @@
 .body{
-    width: 1420px;
-    height: 1080px;
-    background-color: black;
-    margin-left: 250px;
-    margin-right: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 
 .item1 { grid-area: menu; }
 .item2 { grid-area: main; }
-.item3 { grid-area: cuadro4; width: 30vi; height: auto;}
+.item3 { grid-area: cuadro4;}
 .item4 { grid-area: cuadro5;}
+.item5 { grid-area: primera;}
+.item6 { grid-area: segunda;}
+.item7 { grid-area: tercera;}
 
 .grid-container {
   display: grid;
+  grid-template-rows: 360px 360px 500px 130px;
+  grid-template-columns: 550px 540px ;
+  grid-gap: 10px;
   grid-template-areas:
     'menu cuadro4'
     'main cuadro4'
     'cuadro5 cuadro5';
-    gap: 15px;
-    background-color: #000000;
-    padding: 20px;
+  gap: 15px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
 }
-
 .grid-container > div {
-  background-color:white;
-  text-align: center;
   padding: 20px 0;
-  font-size: 30px;
-  border-radius: 15px;
+}
+.imagen{
+  width: 540px;
+  height: auto;
+  border-radius: 35px;
+}
+#hola{
+  border-radius: 40px;
+  overflow: hidden;
+}
+#hola1{
+  border-radius: 40px;
+  overflow: hidden;
+}
+#hola2{
+  border-radius: 40px;
+  overflow: hidden;
+}
+.body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+.grid-container2 {
+  position: relative;
+  top: 30px;
+  display: grid;
+  grid-template-rows: 360px 390px ;
+  grid-template-columns: 550px 540px ;
+  grid-gap: 10px;
+  grid-template-areas:
+    'primera tercera'
+    'segunda tercera';
+  gap: 15px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
+}
+.grid-container2 > div {
+  padding: 20px 0;
+}
+.imagen2{
+  width: 539px; 
+  height: 350px;
+  border-radius: 40px;
+}
+#hola3{
+  border-radius: 40px;
+  overflow: hidden;
+}
+.imagen3{
+  width: 515px;
+  height: auto;
+  border-radius: 35px;
 }
