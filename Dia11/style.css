@@ -12,19 +12,84 @@
 }
 .casa{
     position: absolute;
-    top: 12.4em;
-    left: 63.7em;
-    width: 900px;
+    top: 32%;
+    left: 68.5%;
+    width: 600px;
     height: auto;
+}
+.contenedor{
+    position: relative;
 }
 .sol{
     position: absolute;
     width: 300px;
     height: auto;
-    left: 1500px;
+    left: 80%;
+    animation: opacidad 50s ;
 }
-@keyframes sol {
-    from{
-        opacity: ;
+@keyframes opacidad {
+    0% {
+        opacity: 0.5;
     }
+    50%{
+        opacity: 0.5;
+    }
+      
+    100% {
+        opacity: 1; 
+      }
 }
+.nube{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 120px;
+    transform: translate(-100%, -50%); 
+    animation: moverImagen 20s; 
+}
+@keyframes moverImagen {
+    0% {
+      right: -100%; 
+    }
+    40% {
+      right: 30%; 
+    }
+    60% {
+      right: 30%; 
+    }
+    100% {
+      right: 100%; 
+    }
+  }
+  .gotas{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 160px;
+    left: 480px;
+    animation: appear 5s linear forwards, gotas 3s linear infinite ;
+    animation-delay: 7s;
+    opacity: 0;
+  }
+  @keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+  @keyframes gotas {
+    0%{
+        top: 180;
+    }
+    100%{
+        top: 300px;
+    }
+
+  }
+
+  
