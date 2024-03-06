@@ -4,7 +4,9 @@
   align-items: center;
   width: 100%;
 }
-
+body{
+  background-color: #002842;
+}
 
 .item1 { grid-area: menu; }
 .item2 { grid-area: main; }
@@ -16,7 +18,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 360px 360px 500px 130px;
+  grid-template-rows: 360px 360px 500px 135px;
   grid-template-columns: 550px 540px ;
   grid-gap: 10px;
   grid-template-areas:
