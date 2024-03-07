@@ -12,9 +12,9 @@
 }
 .casa{
     position: absolute;
-    top: 32%;
-    left: 68.5%;
-    width: 600px;
+    top: 40%;
+    left: 70%;
+    width: 500px;
     height: auto;
 }
 .contenedor{
@@ -24,8 +24,8 @@
     position: absolute;
     width: 300px;
     height: auto;
-    left: 80%;
-    animation: opacidad 50s ;
+    left: 70%;
+    animation: opacidad 35s ;
 }
 @keyframes opacidad {
     0% {
@@ -43,9 +43,10 @@
     position: absolute;
     width: 400px;
     height: auto;
-    top: 120px;
+    top: 130px;
     transform: translate(-100%, -50%); 
-    animation: moverImagen 20s; 
+    animation: moverImagen 20s forwards;
+    animation-delay: 8s; 
 }
 @keyframes moverImagen {
     0% {
@@ -65,10 +66,10 @@
     position: absolute;
     width: 400px;
     height: 500px;
-    top: 160px;
-    left: 480px;
+    top: 180px;
+    left: 550px;
     animation: appear 5s linear forwards, gotas 3s linear infinite ;
-    animation-delay: 7s;
+    animation-delay: 15s;
     opacity: 0;
   }
   @keyframes appear {
@@ -91,5 +92,110 @@
     }
 
   }
-
-  
+  .flor{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 740px;
+    top: 650px;
+    transform: translate(-50%); 
+    animation: moverImagen1 5s forwards;
+    animation-delay: 19s;
+    opacity: 0;
+}
+@keyframes moverImagen1 {
+    0% {
+      top: 1500px; 
+    }
+    100% {
+      top: 650px; 
+      opacity: 1;
+    }
+  }
+.numero3{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 50%;
+  top: 650px;
+  animation: opacidad1 2s forwards ;
+  opacity: 0;
+}
+@keyframes opacidad1 {
+  0% {
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+    
+  100% {
+      opacity: 0; 
+    }
+}
+.numero2{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 50%;
+  top: 650px;
+  animation: opacidad2 2s forwards ;
+  animation-delay: 2s;
+  opacity: 0;
+}
+@keyframes opacidad2 {
+  0% {
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+    
+  100% {
+      opacity: 0; 
+    }
+}
+.numero1{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 50%;
+  top: 650px;
+  animation: opacidad3 2s forwards ;
+  animation-delay: 4s;
+  opacity: 0;
+}
+@keyframes opacidad3 {
+  0% {
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+    
+  100% {
+      opacity: 0; 
+    }
+}
+.accion{
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 45%;
+  top: 600px;
+  animation: opacidad4 2s forwards ;
+  animation-delay: 6s;
+  opacity: 0;
+}
+@keyframes opacidad4 {
+  0% {
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+    
+  100% {
+      opacity: 0; 
+    }
+}
